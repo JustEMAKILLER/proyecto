@@ -1,0 +1,207 @@
+        /* Estilos generales */
+        body {
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: justify;
+            user-select: none;
+        }
+       a{
+        text-decoration: none;
+        color:whitesmoke;
+        transition:transform 1s;
+    }
+    a:hover{
+        transform:scale(1.05);
+    }
+    .title{
+        font-size: 25px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+        
+        /* Encabezado */
+        .header {
+            background: #0c7388;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            width: 100%;
+            top:0px;
+            z-index: 5000;
+            height: 120px;
+        }
+        .header__imgUCI {
+            width: 200px;
+            height: 150px;
+            position: absolute;
+            left: 20px;
+        }
+        .header__imgMarti {
+            position: relative;
+            top:20px;
+            border-radius: 50px;
+            width: 80px;
+            height: auto;
+            margin-right: 15px;
+        }
+        .header__imgBook{
+            position: absolute;
+            right: 20px;
+            width: 200px;
+            height: 100px;
+        }
+        .header__pensamiento{
+            text-align: center;
+        }
+        /* Contenedor principal */
+        .container {
+            max-width: 900px;
+            height: fit-content;
+            margin: 0 auto;
+            margin-top: -15px ;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        
+        /* Secciones */
+        .landingSection{
+            position: relative;
+            top:150px;
+        }
+        .section {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .section2{
+            display: flex;
+            flex-direction: row-reverse;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .sectionCuadernos {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        #politico { background-color: #ffebee; }
+        #filosofico { background-color: #e3f2fd; }
+        #educacion { background-color: #e8f5e9; }
+        #literario { background-color: #fff3e0; }
+        #arte { background-color: #ede7f6; }
+        #ciencia { background-color: #f1f8e9; }
+        #economia { background-color: #fbe9e7; }
+        #cuadernos {
+            margin: 0 auto;
+            width:1000px;
+            margin-top:10px;
+            margin-bottom: 30px;
+            background-color: #f9fbe7; }
+        .cuadernos__header{
+            text-align: center;
+             }
+        #remedioAnexionista{
+            margin: 0 auto;
+            width:900px;
+            margin-top:10px;
+            margin-bottom: 30px;
+            background-color: #f9fbe7;
+        }
+        
+        /* Biografía */
+        .biography {
+            display: flex;
+            flex-direction: row;
+            background: #e0f2f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .biography__title {
+            color: #004d40;
+            text-align: center;
+        }
+        .biography__img{
+            width: 250px;
+            height: 390px;
+        }
+        .biography__imgsection{
+            width: 30%;
+            position: relative;
+            top:70px;
+        }
+        .biography__text{
+            width: 70%;
+        }
+        /* Enlace con imagen */
+        .containter__title {
+            margin-top:-60px ;
+            margin-bottom:40px ;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            transition: transform 1s;
+        }
+        .container__titlePSection{
+            position: relative;
+            top: 210px;
+        }
+        .container__titleP {
+            color: #ddd6d6;
+            font-size: 25px;
+            text-shadow: 1px 1px 2px #0a9396;
+        }
+        .container__titleP2{
+            color: #ddd6d6;
+            position: relative;
+            top:-20px;
+            font-size: 25px;
+            text-shadow: 1px 1px 2px #0a9396;
+        }
+        .container__titleImg {
+            width: 530px;
+            border-radius: 50px;
+            display: block;
+            margin: 0 auto;
+        }
+        .containter__title:hover{
+            transform: scale(1.05);
+        }
+        
+        /* Botón */
+        .button {
+            cursor: pointer;
+            margin: 20px auto;
+            display: block;
+            padding: 10px 15px;
+            color: white;
+            background: #0a9396;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .button:hover {
+            transform: scale(1.1);
+        }
+        
+        /* Pie de página */
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .footer__imgMarti {
+            border-radius: 20px;
+            width: 700px;
+            height: 400px;
+        }
