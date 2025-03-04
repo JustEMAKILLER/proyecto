@@ -133,7 +133,7 @@
             text-align: center;
         }
         .biography__img{
-            width: 250px;
+            max-width: 250px;
             height: 390px;
         }
         .biography__imgsection{
