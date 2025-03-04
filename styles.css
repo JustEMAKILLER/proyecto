@@ -1,4 +1,9 @@
-        /* Estilos generales */
+@media (max-width: 768px) { /* Ajusta el ancho según necesites */
+    body * {
+        display: none !important;
+    }
+}
+/* Estilos generales */
         body {
             font-size: 20px;
             font-family: Arial, sans-serif;
