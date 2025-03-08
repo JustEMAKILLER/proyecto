@@ -1,9 +1,4 @@
-@media (max-width: 768px) { /* Ajusta el ancho según necesites */
-    body * {
-        display: none !important;
-    }
-}
-/* Estilos generales */
+        /* Estilos generales */
         body {
             font-size: 20px;
             font-family: Arial, sans-serif;
@@ -22,6 +17,8 @@
         transform:scale(1.05);
     }
     .title{
+        margin:5% auto;
+        max-width: 100%;
         font-size: 25px;
         font-family:Verdana, Geneva, Tahoma, sans-serif
     }
@@ -31,7 +28,6 @@
             background: #0c7388;
             color: white;
             text-align: center;
-            padding: 1rem;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -39,26 +35,27 @@
             width: 100%;
             top:0px;
             z-index: 5000;
-            height: 120px;
+            height: max-content;
         }
         .header__imgUCI {
-            width: 200px;
-            height: 150px;
+            max-width: 28%;
+            min-width: 20%;
+            max-height: 80%;
             position: absolute;
-            left: 20px;
+            left: 1vw;
         }
         .header__imgMarti {
             position: relative;
             top:20px;
             border-radius: 50px;
-            width: 80px;
+            max-width: 20%;
             height: auto;
             margin-right: 15px;
         }
         .header__imgBook{
             position: absolute;
             right: 20px;
-            width: 200px;
+            max-width: 30%;
             height: 100px;
         }
         .header__pensamiento{
@@ -80,6 +77,8 @@
         .landingSection{
             position: relative;
             top:150px;
+            margin: 0 auto;
+            width: max-content;
         }
         .section {
             display: flex;
@@ -138,8 +137,8 @@
             text-align: center;
         }
         .biography__img{
-            max-width: 250px;
-            height: 390px;
+            width:95%;
+            height:80%;
         }
         .biography__imgsection{
             width: 30%;
