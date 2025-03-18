@@ -40,7 +40,8 @@
         .header__imgUCI {
             max-width: 28%;
             min-width: 20%;
-            max-height: 80%;
+            height: auto;
+            max-height: 90%;
             position: absolute;
             left: 1vw;
         }
